@@ -9,21 +9,33 @@
 /* Begin PBXBuildFile section */
 		84BDA33425E3B83E000878AF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84BDA33325E3B83E000878AF /* AppDelegate.swift */; };
 		84BDA33625E3B83E000878AF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84BDA33525E3B83E000878AF /* SceneDelegate.swift */; };
-		84BDA33825E3B83E000878AF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84BDA33725E3B83E000878AF /* ContentView.swift */; };
+		84BDA33825E3B83E000878AF /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84BDA33725E3B83E000878AF /* HomeView.swift */; };
 		84BDA33A25E3B83F000878AF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84BDA33925E3B83F000878AF /* Assets.xcassets */; };
 		84BDA33D25E3B83F000878AF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84BDA33C25E3B83F000878AF /* Preview Assets.xcassets */; };
 		84BDA34025E3B83F000878AF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84BDA33E25E3B83F000878AF /* LaunchScreen.storyboard */; };
+		84BDA34925E3BB41000878AF /* drink.json in Resources */ = {isa = PBXBuildFile; fileRef = 84BDA34825E3BB41000878AF /* drink.json */; };
+		84BDA34C25E3BC15000878AF /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84BDA34B25E3BC15000878AF /* Data.swift */; };
+		84BDA34F25E3BDA7000878AF /* Drink.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84BDA34E25E3BDA7000878AF /* Drink.swift */; };
+		84BDA35225E3BE75000878AF /* DrinkItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84BDA35125E3BE75000878AF /* DrinkItem.swift */; };
+		84BDA35D25E3C2AA000878AF /* DrinkRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84BDA35C25E3C2AA000878AF /* DrinkRow.swift */; };
+		84BDA36125E431B4000878AF /* DrinkDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84BDA36025E431B4000878AF /* DrinkDetail.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		84BDA33025E3B83E000878AF /* CoffeeDBApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoffeeDBApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		84BDA33325E3B83E000878AF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		84BDA33525E3B83E000878AF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		84BDA33725E3B83E000878AF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		84BDA33725E3B83E000878AF /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		84BDA33925E3B83F000878AF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		84BDA33C25E3B83F000878AF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		84BDA33F25E3B83F000878AF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		84BDA34125E3B83F000878AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84BDA34825E3BB41000878AF /* drink.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = drink.json; sourceTree = "<group>"; };
+		84BDA34B25E3BC15000878AF /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
+		84BDA34E25E3BDA7000878AF /* Drink.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Drink.swift; sourceTree = "<group>"; };
+		84BDA35125E3BE75000878AF /* DrinkItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrinkItem.swift; sourceTree = "<group>"; };
+		84BDA35C25E3C2AA000878AF /* DrinkRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrinkRow.swift; sourceTree = "<group>"; };
+		84BDA36025E431B4000878AF /* DrinkDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrinkDetail.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,11 +70,17 @@
 			children = (
 				84BDA33325E3B83E000878AF /* AppDelegate.swift */,
 				84BDA33525E3B83E000878AF /* SceneDelegate.swift */,
-				84BDA33725E3B83E000878AF /* ContentView.swift */,
+				84BDA33725E3B83E000878AF /* HomeView.swift */,
+				84BDA36025E431B4000878AF /* DrinkDetail.swift */,
+				84BDA35C25E3C2AA000878AF /* DrinkRow.swift */,
+				84BDA35125E3BE75000878AF /* DrinkItem.swift */,
 				84BDA33925E3B83F000878AF /* Assets.xcassets */,
+				84BDA34825E3BB41000878AF /* drink.json */,
 				84BDA33E25E3B83F000878AF /* LaunchScreen.storyboard */,
 				84BDA34125E3B83F000878AF /* Info.plist */,
 				84BDA33B25E3B83F000878AF /* Preview Content */,
+				84BDA34B25E3BC15000878AF /* Data.swift */,
+				84BDA34E25E3BDA7000878AF /* Drink.swift */,
 			);
 			path = CoffeeDBApp;
 			sourceTree = "<group>";
@@ -134,6 +152,7 @@
 			files = (
 				84BDA34025E3B83F000878AF /* LaunchScreen.storyboard in Resources */,
 				84BDA33D25E3B83F000878AF /* Preview Assets.xcassets in Resources */,
+				84BDA34925E3BB41000878AF /* drink.json in Resources */,
 				84BDA33A25E3B83F000878AF /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -147,7 +166,12 @@
 			files = (
 				84BDA33425E3B83E000878AF /* AppDelegate.swift in Sources */,
 				84BDA33625E3B83E000878AF /* SceneDelegate.swift in Sources */,
-				84BDA33825E3B83E000878AF /* ContentView.swift in Sources */,
+				84BDA35D25E3C2AA000878AF /* DrinkRow.swift in Sources */,
+				84BDA33825E3B83E000878AF /* HomeView.swift in Sources */,
+				84BDA34F25E3BDA7000878AF /* Drink.swift in Sources */,
+				84BDA34C25E3BC15000878AF /* Data.swift in Sources */,
+				84BDA35225E3BE75000878AF /* DrinkItem.swift in Sources */,
+				84BDA36125E431B4000878AF /* DrinkDetail.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
